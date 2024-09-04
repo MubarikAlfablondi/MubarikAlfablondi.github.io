@@ -2,6 +2,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Add styles for iPhone and Android screens */
+  body {
+    font-size: 16px;
+  }
+  /* Add styles for specific elements */
+  .element {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .header {
