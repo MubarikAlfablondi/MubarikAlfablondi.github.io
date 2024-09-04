@@ -43,3 +43,8 @@ body {
   height: 500px;
   padding: 20px;
 }
+
+img {
+  float: left;
+  margin-left:0;
+}
