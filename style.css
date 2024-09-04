@@ -8,12 +8,13 @@ body {
   text-align: center;
   padding: 40px;
   font-size: 32px;
+  background-color: #7eeb83;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(122, 197, 107);
+  background-color: #78E33D ;
   padding: 10px;
 }
 
