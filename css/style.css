@@ -48,3 +48,37 @@ img {
   float: left;
   margin-left:0;
 }
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog-list li:last-child {
+  border-bottom: none;
+}
+
+.blog-list a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.blog-list a:hover {
+  color: #23527c;
+}
+
+/* Add styles for hot_takes.html here */
+.hot-takes {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.hot-takes h2 {
+  color: #337ab7;
+}
