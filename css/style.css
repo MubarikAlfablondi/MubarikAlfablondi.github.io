@@ -23,7 +23,19 @@ body {
   text-align: center;
   padding: 40px;
   font-size: 32px;
-  background-color: #7eeb83;
+  animation: rainbowColorChange 20s linear infinite;
+}
+
+@keyframes rainbowColorChange {
+  0% {background-color: #ff0000;}
+  14% {background-color: #ff7f00;}
+  28% {background-color: #ffff00;}
+  42% {background-color: #00ff00;}
+  56% {background-color: #0000ff;}
+  70% {background-color: #4b0082;}
+  84% {background-color: #9400d3;}
+  100% {background-color: #ff0000;}
+
 }
 
 .navbar  {
