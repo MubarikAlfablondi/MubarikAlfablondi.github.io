@@ -56,43 +56,6 @@ body {
   padding: 20px;
 }
 
-figure {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-}
-
-figcaption {
-  display: block;
-  position: absolute;
-  bottom: -60px;
-  left: 0;
-}
-
-.text{
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  margin-left: 20px;
-}
-
-.image-container {
-  display: block;
-}
-
-.image-container img {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.image-container .text2 {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 20px;
-}
-
-
-
 img {
   float: left;
   margin-left:0;
@@ -131,5 +94,3 @@ img {
 .hot-takes h2 {
   color: #337ab7;
 }
-
-f
