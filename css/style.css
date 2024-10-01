@@ -27,14 +27,14 @@ body {
 }
 
 @keyframes rainbowColorChange {
-  0% {background-color: #ff0000;}
-  14% {background-color: #ff7f00;}
-  28% {background-color: #ffff00;}
-  42% {background-color: #00ff00;}
-  56% {background-color: #0000ff;}
-  70% {background-color: #4b0082;}
-  84% {background-color: #9400d3;}
-  100% {background-color: #ff0000;}
+  0% {background-color: #90ee90;}
+  14% {background-color: #3cb371;}
+  28% {background-color: #3cb043}
+  42% {background-color: #228b22;}
+  56% {background-color: #006400;;}
+  70% {background-color: #2e8b57;}
+  84% {background-color: #808000;;}
+  100% {background-color: #98ff98;}
 
 }
 
