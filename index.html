@@ -34,8 +34,20 @@
     I want you to enjoy the website! Have Fun! <br>
     ~ Moo
   </div>
-  <p>Current Visitors: </p>
-  <script scr="littleAnimations.js"></script>
+  <p>Current Visitors: <span id="visits"></span> </p>
+  <script>
+    const countEL = document.getElementById('visits');
+
+    updateVisitCount();
+
+    function updateVisitCount(){
+      fetch('https://nika09.goatcounter.com/count')
+      .then(res => res.json())
+      .then(res => {
+        countEL.innerHTML = res.value;
+      })
+    }
+  </script>
 
 </body>
 </html>
