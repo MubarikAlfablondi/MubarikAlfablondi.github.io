@@ -35,19 +35,7 @@
     ~ Moo
   </div>
   <p>Current Visitors: <span id="visits"></span> </p>
-  <script>
-    const countEL = document.getElementById('visits');
-
-    updateVisitCount();
-
-    function updateVisitCount(){
-      fetch('https://nika09.goatcounter.com/count')
-      .then(res => res.json())
-      .then(res => {
-        countEL.innerHTML = res.value;
-      })
-    }
-  </script>
+  <script data-goatcounter="https://nika09.goatcounter.com/count"async src="//gc.zgo.at/count.js"></script>
 
 </body>
 </html>
